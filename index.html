@@ -9,14 +9,20 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="/assests/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@100&family=Roboto:wght@700&display=swap" rel="stylesheet">
-
+    <link 
+  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+  rel="stylesheet"  type='text/css'>
     <title>MIC | ALL CLUB WEBSITE</title>
+   
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg">
+   <!---- <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -43,7 +49,38 @@
           </ul>
         </div>
       </div>
-    </nav>
+    </nav> -->
+
+    <header>
+        
+      <!-- Navbar Start -->
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark  fixed-top ">
+          <a href="#" class="navbar-brand">
+              <img src="/Images/MIST_Logo.png" alt="logo" style="width: 50px;">
+          </a>
+  
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+  
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      
+          <ul class="navbar-nav m-auto px-2">
+              
+              <li class="nav-item px-2"><a class="nav-link active" href="#"><i class="fa fa-fw fa-home px"></i>
+                  Home</a></li>
+              <li class="nav-item px-2"><a class="nav-link" href="#"><i class="fa fa-fw fa-comments px"></i>Clubs</a></li>
+              <li class="nav-item px-2"><a class="nav-link" href="#"><i class="fa  fa-address-card px"></i>About us</a></li>
+              <li class="nav-item px-2"><a class="nav-link" href="#"><i class="fa fa-fw fa-user px"></i>Login</a></li>
+  
+          </ul>
+         </div> 
+      </nav>
+      
+        <!-- Navbar End -->
+  
+   </header>
 
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -87,9 +124,9 @@
           <div class="col-lg-5" data-aos="fade-right">
             <img width="300" src="/Images/logo.png" class="img-fluid" alt="" onclick="image(this)" role="button">
           </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 content">
+          <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
             <h3>MIST Innovation Club</h3>
-            <p class="text-1" style="color: black;">
+            <p class="text-1" style="color: white;">
               MIST Innovation Club is one of the active clubs you'll see at MIST. 
               In this rapidly advancing era of science, the importance of having technical knowledge and working innovatively definitely has no bounds. 
               Thus, with the noble purpose of branding MIST with science, MIST Innovation Club (MIC) has commenced its journey on 12 February 2020.
@@ -103,9 +140,9 @@
 
 
 
-          <div  class="col-lg-6 pt-4 pt-lg-0 content">
+          <div  class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3 style="padding-top: 20px; padding-bottom: 20px;">MIST Computer Club</h3>
-            <p class="text-1" style="color: black;">
+            <p class="text-1" style="color: white;">
               MIST Computer Club is one of the finest clubs of MIST that is supervised by our experienced, cooperative and so many helpful faculty members. 
               Their guidance and support help us, students, a lot to enrich our club and hopefully we will do more good deeds in  the future.
               MCC mainly focuses on contest programming and grooming students for competitive and professional programming. 
@@ -114,17 +151,17 @@
 
           </div>
 
-          <div class="col-lg-5" style="color: skyblue;">
+          <div class="col-lg-5 ml-auto" style="color: white;" data-aos="fade-right">
             <img width="300" style="padding-top: 20px; padding-bottom: 20px;" src="/Images/Mist_Computer_Club_Logo.png" class="img-fluid" alt="" onclick="image(this)" role="button">
           </div>
 
-          <div class="col-lg-5" >
+          <div class="col-lg-5 " data-aos="fade-right">
             <img style="padding-bottom: 20px;" width="300" src="/Images/MIST_Robotics_Club.jpg" class="img-fluid" alt="" onclick="image(this)" role="button">
           </div>
 
-          <div class="col-lg-6 pt-4 pt-lg-0 content">
+          <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3 style="padding-bottom: 20px;">MIST Robotics Club</h3>
-            <p class="text-1" style="color: black;">
+            <p class="text-1" style="color: white;">
               Robotics involves design, construction, operation and use of robots. 
               The mission of a Robotics Club is to spread knowledge about robotics and other robotics related aspects. 
               We, MIST Robotics Club, try to do so by spreading knowledge about electric motor circuitry, electronics,
@@ -137,9 +174,9 @@
           </div>
 
 
-          <div class="col-lg-6 pt-4 pt-lg-0 content">
+          <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3 style="padding-bottom: 20px;">MIST Drama and Film Society</h3>
-            <p class="text-1" style="color: black;">
+            <p class="text-1" style="color: white;">
               MIST Drama and Film Society (MDFS) is an extra-curricular activity platform related to Drama and Film 
               for the students of MIST. This club was founded originally in 2011 by Shamim Hasan Sarkar and his fellow
               mates. It started as a Facebook group by a bunch of drama and film enthusiasts. But it started official 
@@ -153,19 +190,19 @@
 
           </div>
 
-          <div class="col-lg-5">
+          <div class="col-lg-5 ml-auto" data-aos="fade-right">
             <img width="300" src="/Images/MDFS_Logo.png" class="img-fluid"  alt="" onclick="image(this)"
               role="button">
           </div>
 
 
-          <div class="col-lg-5">
+          <div class="col-lg-5" data-aos="fade-right">
             <img style="padding-bottom: 20px;" width="300" src="/Images/MDS.jpg" class="img-fluid" alt="" onclick="image(this)" role="button">
           </div>
 
-          <div class="col-lg-6 pt-4 pt-lg-0 content">
+          <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>MIST Debating Club</h3>
-            <p class="text-1" style="color: black;">
+            <p class="text-1" style="color: white;">
               Embarking on its journey since 2011, MIST Debating Society (MIST DS) has been actively contributing 
               in the extracurricular activities of the students of MIST.  Over the years, it has evolved as one 
               of the significant contributors in achieving recognition for MIST, on both national and international 
@@ -180,9 +217,9 @@
           </div>
 
 
-          <div class="col-lg-6 pt-4 pt-lg-0 content">
+          <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>MIST Career Club</h3>
-            <p class="text-1" style="color: black;">
+            <p class="text-1" style="color: white;">
               With a view to getting the students all prepared for obtaining their career destinations, MIST Career Club 
               (MCC) works as a potential platform by engaging them in various career and self-development activities, 
               since it’s beginning from 2017. Through organizing numbers of grooming sessions, seminars, workshops 
@@ -194,7 +231,7 @@
 
           </div>
 
-          <div class="col-lg-5">
+          <div class="col-lg-5 ml-auto" data-aos="fade-right">
             <img width="300" src="/Images/MIST_Career_Club_Logo.jpg" class="img-fluid" data-aos="fade-down" alt=""
               onclick="image(this)" role="button">
           </div>
@@ -279,7 +316,7 @@
 
   <!-- Copyright -->
   <div class="container">
-    <div class="footer-copyright text-center py-3" style="color: black; padding-top: 15px" >© 2022 Copyright:
+    <div class="footer-copyright text-center py-3" >© 2022 Copyright:
       <a href="/"> MIST Innovation Club</a>
     </div>
   </div>
@@ -288,7 +325,19 @@
 </section>
 <!-- Footer -->
    
+    <script>
+      AOS.init({
+        offset: 120,
+        duration: 2000,
+      });
 
+      document.querySelectorAll('img')
+      .forEach((img) =>
+          img.addEventListener('load',() =>
+          AOS.refresh()
+          )
+      );
+    </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
