@@ -1,34 +1,36 @@
 body{
     font-family: 'Open Sans', sans-serif;
     background-color: white
-
+}
 .nav-item{
     font-size: 20px;
 
 }
 .navbar{
-    background-color: black;
+    background-color: white;
 }
 
 section {
-    padding-top: 15px;
+    padding-top: 20px;
 }
 
-.clubs{
-    padding: 50px;
-}
+
 .clubs .container{
-    background: black;
+    background: white;
     padding: 30px;    
 }
-
-
 .events .container{
-    background-color: black;
+    background-color: white;
     padding: 30px;
 }
 
 .page-footer .container{
-    background-color: black;
+    background-color: white;
     padding: auto;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
 }
