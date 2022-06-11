@@ -1,10 +1,10 @@
 body{
     font-family: 'Open Sans', sans-serif;
-    background-color: slategrey;
-}
+    background-color: white
 
-.nav-link{
+.nav-item{
     font-size: 20px;
+
 }
 .navbar{
     background-color: black;
@@ -14,18 +14,13 @@ section {
     padding-top: 15px;
 }
 
+.clubs{
+    padding: 50px;
+}
 .clubs .container{
     background: black;
     padding: 30px;    
 }
-h2{
-    padding-bottom: 5px;
-    color: red;
-}
-h3{
-    color: green;
-}
-
 
 
 .events .container{
