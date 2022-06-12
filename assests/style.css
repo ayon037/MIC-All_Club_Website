@@ -1,0 +1,54 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.nav-item{
+    font-size: 20px;
+
+}
+.navbar{
+    background-color: white;
+}
+
+section {
+    padding-top: 20px;
+}
+
+h2,h3,p{
+    color: white;
+}
+
+.clubs .container{
+    background: #343A40;
+    padding: 30px;  
+}
+.events .container{
+    background-color: #343A40;
+    padding: 30px;
+    border: 2px solid white;  
+}
+
+.card{
+    background-color: #343A40;
+    
+}
+
+.col{
+    border: 2px solid white;  
+   
+}
+
+.page-footer .container .footer-copyright{
+    background-color: #343A40;
+    padding: auto;
+    color: white;
+    padding-top: 15px;
+}
+
+
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
