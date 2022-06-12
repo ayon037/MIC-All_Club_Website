@@ -1,6 +1,6 @@
 body{
     font-family: 'Open Sans', sans-serif;
-    background-color: black;
+    
 }
 .nav-item{
     font-size: 20px;
@@ -19,17 +19,17 @@ h2,h3,p{
 }
 
 .clubs .container{
-    background: black;
+    background: #343A40;
     padding: 30px;  
 }
 .events .container{
-    background-color: black;
+    background-color: #343A40;
     padding: 30px;
     border: 2px solid white;  
 }
 
 .card{
-    background-color: black;
+    background-color: #343A40;
     
 }
 
@@ -39,7 +39,7 @@ h2,h3,p{
 }
 
 .page-footer .container .footer-copyright{
-    background-color: black;
+    background-color: #343A40;
     padding: auto;
     color: white;
     padding-top: 15px;
