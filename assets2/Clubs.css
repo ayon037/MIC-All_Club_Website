@@ -536,3 +536,14 @@ body{
 
 
 /* main ends */
+
+
+/*Footer*/
+.page-footer .container .footer-copyright{
+    background-color: white;
+    padding: auto;
+    color: black;
+    padding-top: 15px;
+}
+
+/*Footer ends*/
