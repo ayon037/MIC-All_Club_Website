@@ -12,6 +12,17 @@ body{
     position: relative;
 }
 
+.carousel-indicators li {
+    background:orange;
+    color:purple;
+    height:auto;
+    text-indent: 0;
+    text-align:center;
+    margin-right: 8px;
+    margin-left: 8px;
+    border: none;
+  }
+
 
 .nav-item{
     font-size: 20px;
@@ -47,10 +58,6 @@ h2,h3,p,a{
     
 }
 
-.col{
-    border: 2px solid white;  
-   
-}
 
 .page-footer .container .footer-copyright{
     background-color: white;
