@@ -5,6 +5,15 @@ body{
 }
 
 
+
+.navbar-container{
+    top: 0;
+    background-color: #262B36;
+    position: sticky;
+    z-index: 2;
+}
+
+
 .carousel-inner > .carousel-item {
     height: auto;
   }
