@@ -9,7 +9,7 @@ body{
 	background: no-repeat scroll center scroll;
 	-webkit-background-size:cover;
 	background-size: cover ;
-
+    position: relative;
 }
 
 
