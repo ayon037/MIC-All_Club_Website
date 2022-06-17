@@ -7,13 +7,11 @@ body{
 
 /* navbar starts */
 .nav-item{
-    font-size: 20px;
+    font-size: 18px;
 
 }
-.navbar{
-    background-color: rgb(244, 146, 239);
-   
-}
+
+
 
 
 #colorfontnavbar{
@@ -54,17 +52,39 @@ body{
 
 
 
-.carousel-item {
-    
-    height: 100vh;
-   
-    min-height: 350px;
-     background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; 
+.carousel-inner > .carousel-item {
+    height: auto;
   }
+  
+  @media only screen and (min-width: 768px) {
+    .carousel-inner > .carousel-item {
+      height: 40em;
+    }
+  
+    .carousel-inner > .carousel-item img {
+      height:100vh;
+      min-height:200px;
+      background: no-repeat scroll center scroll;
+      background-size: cover ;
+      position: absolute;
+      -webkit-background-size:cover;
+      
+      width: 100%;
+    }
+  }
+
+
+.carousel-indicators li {
+    background:orange;
+    color:purple;
+    height:auto;
+    text-indent: 0;
+    text-align:center;
+    margin-right: 8px;
+    margin-left: 8px;
+    border: none;
+  }
+
 
   /* .carosel-item {
     
