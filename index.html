@@ -6,10 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <link rel="shortcut icon" type="image/png" href="Images/logo.png">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="assests/style.css" media="screen">
+
+    <link rel="stylesheet" href="assests/owl.carousel.min.css">
+    <link rel="stylesheet" href="assests/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assests/animate.css">
     
     
     <link 
@@ -26,6 +31,12 @@
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
   </head>
   <body >
@@ -61,72 +72,7 @@
 
 
 
-   <!-- <nav class="navbar navbar-expand-lg fixed-top">
-      <div class="container-fluid">
-        <a href="#" class="navbar-brand">
-              <img src="Images/MIST_Logo.png" alt="logo" style="width: 50px;">
-        </a>
-
-        <button class="navbar-toggler mb-2 mt-1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navmenu">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item px-2"><a class="nav-link active text-dark" href="#"><i class="fa fa-fw fa-home px"></i>
-              Home</a></li>
-          <li class="nav-item px-2"><a class="nav-link  text-dark" href="#clubs"><i class="fa fa-fw fa-comments px"></i>
-            Clubs</a></li>
-          <li class="nav-item px-2"><a class="nav-link text-dark" href="#"><i class="fa fa-address-card px"></i>
-            About us</a></li>
-          <li class="nav-item px-2"><a class="nav-link  text-dark" href="#events"><i class="fa fa-calendar px"></i>
-            Events</a></li>
-          <li class="nav-item px-2"><a class="nav-link text-dark" href="#"><i class="fa fa-fw fa-user px"></i>
-            Login</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav> -->
-
-
-   <!-- <header>
-        
-     
-      <nav class="navbar navbar-expand-sm fixed-top ">
-          <a href="#" class="navbar-brand">
-              <img src="Images/MIST_Logo.png" alt="logo" style="width: 50px;">
-          </a>
-  
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-  
-  
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      
-          <ul class="navbar-nav ms-auto">
-              
-              <li class="nav-item px-2"><a class="nav-link active" href="#"><i class="fa fa-fw fa-home px"></i>
-                  Home</a></li>
-              <li class="nav-item px-2"><a class="nav-link" href="#clubs"><i class="fa fa-fw fa-comments px"></i>
-                Clubs</a></li>
-              <li class="nav-item px-2"><a class="nav-link" href="#"><i class="fa fa-address-card px"></i>
-                About us</a></li>
-              <li class="nav-item px-2"><a class="nav-link" href="#events"><i class="fa fa-calendar px"></i>
-                Events</a></li>
-              <li class="nav-item px-2"><a class="nav-link" href="#"><i class="fa fa-fw fa-user px"></i>
-                Login</a></li>
-              
-
-          </ul>
-         </div> 
-      </nav>
-      
-        
-  
-   </header> -->
-
-
+   
    
 
    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -330,7 +276,76 @@
     </div>
   </section>
 
-  <section id="events" class="events">
+
+
+    <section class="events" id="events">
+      <div class="container mt-5" >
+        <h2 style="padding-bottom: 20px; padding-top: 20px;">Recent Events</h2>
+        <div class="owl-carousel owl-theme">
+          <div class="ms-2 me-2">
+            <div class="card">
+              <img data-src="Images/BootCamp_MIC.jpg" alt="bootcamp" class="card-img-top owl-lazy">
+              <div class="card-body">
+                <h5 class="card-title">Bootcamp</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="ms-2 me-2">
+            <div class="card">
+              <img data-src="Images/job fair.png" alt="Job Fair" class="card-img-top owl-lazy">
+              <div class="card-body">
+                <h5 class="card-title">Job Fair</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="ms-2 me-2">
+            <div class="card">
+              <img data-src="Images/trinomial podcast.png" alt="Trinomial Podcast" class="card-img-top owl-lazy">
+              <div class="card-body">
+                <h5 class="card-title">Trinomial Podcast</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="ms-2 me-2">
+            <div class="card">
+              <img data-src="Images/BootCamp_MIC.jpg" alt="bootcamp" class="card-img-top owl-lazy">
+              <div class="card-body">
+                <h5 class="card-title">Bootcamp</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="ms-2 me-2">
+            <div class="card">
+              <img data-src="Images/job fair.png" alt="Job Fair" class="card-img-top owl-lazy">
+              <div class="card-body">
+                <h5 class="card-title">Job Fair</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="ms-2 me-2">
+            <div class="card">
+              <img data-src="Images/trinomial podcast.png" alt="Trinomial Podcast" class="card-img-top owl-lazy">
+              <div class="card-body">
+                <h5 class="card-title">Trinomial Podcast</h5>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  
+  
+
+
+
+
+ <!---- <section id="events" class="events">
 
     <div class="events container">
       <div class="section-title">
@@ -391,7 +406,9 @@
       </div>
     </div>
 
-  </section>
+  </section> -->
+
+  
 
 
   <!-- Footer -->
@@ -408,32 +425,16 @@
 </section>
 <!-- Footer -->
    
-    <script>
-      AOS.init({
-        offset: 120,
-        duration: 2000,
-      });
-
-      document.querySelectorAll('img')
-      .forEach((img) =>
-          img.addEventListener('load',() =>
-          AOS.refresh()
-          )
-      );
-
-      
-
-
-  
- 
-    </script>
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    
+    <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/jquery.min.js"  ></script>
     <script type="text/javascript" src="js/bootstrap.min.js"  ></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>
