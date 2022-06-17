@@ -1,22 +1,31 @@
-@media (max-width: 480px){
-    div#wrapper {
-        padding-top: 69px;
-    }
-}
 
 body{
     font-family: 'Open Sans', sans-serif;
     background-color: white;
 }
 
-.carousel-item{
-	height:100vh;
-	min-height:300px;
-	background: no-repeat scroll center scroll;
-	-webkit-background-size:cover;
-	background-size: cover ;
-    position: relative;
-}
+
+.carousel-inner > .carousel-item {
+    height: auto;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .carousel-inner > .carousel-item {
+      height: 40em;
+    }
+  
+    .carousel-inner > .carousel-item img {
+      height:100vh;
+      min-height:200px;
+      background: no-repeat scroll center scroll;
+      background-size: cover ;
+      position: absolute;
+      -webkit-background-size:cover;
+      
+      width: 100%;
+    }
+  }
+
 
 .carousel-indicators li {
     background:orange;
@@ -31,11 +40,14 @@ body{
 
 
 .nav-item{
-    font-size: 20px;
+    font-size: 18px;
 
 }
 .navbar{
     background-color: white;
+}
+.navbar-nav{
+    color: black;
 }
 
 section {
